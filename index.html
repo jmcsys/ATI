@@ -16,17 +16,22 @@
       position: fixed;
       bottom: 10px;
       width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .widget-container {
-      display: flex;
-      justify-content: center; /* Center horizontally */
-      align-items: center; /* Center vertically */
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: auto;
     }
   </style>
 </head>
 <body>
   <h1>Welcome to American Tech Innovation</h1>
-  
+
   <footer>
     <div class="widget-container">
       <script 
